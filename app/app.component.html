@@ -1,0 +1,7 @@
+<div class="cmp-1">
+    <p>Hello, {{ greeting }}</p>
+    <label><input type="checkbox" [(ngModel)]="isShowMore">是否显示详情</label>
+    <p *ngIf="isShowMore" highlight>顺宝专车是太原服务最好，价格最低，司机挣的最多，百姓花的最少的本地网约车平台...</p>
+    <child [message]="msgToChild" (outer)="receive($event)"></child>
+    <p>来自子组件的消息：{{ msgFromChild }}</p>
+</div>
