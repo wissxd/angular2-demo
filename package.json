@@ -3,7 +3,7 @@
   "discription": "A simple demo for angular 2",
   "version": "1.0.0",
   "scripts": {
-    "start": "webpack-dev-server --inline --colors --progress --port 8080"
+    "start": "webpack-dev-server --inline --colors --progress --port 3000"
   },
   "dependencies": {
     "@angular/common": "2.1.1",
